@@ -49,4 +49,6 @@ pseudosocialEntities    Those entities that have fewer neighbours than
 lonelyEntities          Those entities that have no neighbours within the 
                         specified distance.
                         
-The number of CPUs used can also be set to a number <= the number of available CPUs/threads to allow for running in the background while keeping resources free for other work.
+The number of CPUs used can also be set to a number <= the number of available 
+CPUs/threads to allow for running in the background while keeping resources 
+free for other work.
