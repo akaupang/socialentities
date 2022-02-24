@@ -29,8 +29,8 @@ water molecule in 'allWaters' is part of a cluster in which it is surrounded by 
 
 A part of the name of the produced output selections can be modified to reflect the type of entity you are investigating (e.g. 'Waters'). If a modified name is not provided, the modifiable part of the output selection name will be set to 'Entities'. The search distinguishes between the following three groups;
 
-- *socialEntities* - Those entities that have neighbours within the specified criteria (number, distance).
-- *pseudosocialEntities* - Those entities that have fewer neighbours than specified within the specified distance.
+- *socialEntities* - Those entities that have neighbours from at least the specified percentage of the input objects, within the specified distance.
+- *pseudosocialEntities* - Those entities that have fewer neighbours than specified, within the specified distance.
 - *lonelyEntities* - Those entities that have no neighbours within the specified distance.
                         
 The number of CPUs used (default, cpus='all') can also be set to a number <= the number of available CPUs/threads to allow for running in the background while keeping resources free for other work.
