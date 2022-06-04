@@ -1,6 +1,6 @@
 
 ## **Social Entities**
-NOTE: This is an early version - while it does the job, a correct/fully working way to use tqdm in the pymol/python console has not been found (avoid printing the progress bar on new lines).
+NOTE: This is an early version - while it does the job, a correct/fully working way to use tqdm in the pymol/python console has not been found (a way to avoid the printing the progress bar on new lines).
 
 #### **Description**
 
