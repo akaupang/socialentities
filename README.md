@@ -27,7 +27,7 @@ One way to identify such water molecules from structures of proteins/protein com
 This creates a selection ('allWaters') of all the water molecules ("resn HOH", selectionA), and then searches the vicinity (1.5 Å) of each of these for other water molecules ('resn HOH', selectionB) from all the loaded objects. If a 
 water molecule in 'allWaters' is part of a cluster in which it is surrounded by water molecules from a  minimum of 90% (0.9) of the other objects (e.g. the other protein structures), at a maximum distance of 1.5 Å, it is added to the output selection.
 
-A part of the name of the produced output selections can be modified to reflect the type of entity you are investigating (e.g. 'Waters'). If a modified name is not provided, the modifiable part of the output selection name will be set to 'Entities'. The search distinguishes between the following three groups;
+A part of the name of the produced output selections can be modified to reflect the type of entity you are investigating (e.g. 'Waters'). If a modified name is not provided, the modifiable part of the output selection name will be set to 'Entities'. The search result distinguishes between the following three groups;
 
 - *socialEntities* - those entities that have neighbours from at least the specified percentage of the input objects, within the specified distance.
 - *pseudosocialEntities* - those entities that have fewer neighbours than specified, within the specified distance.
