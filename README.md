@@ -38,8 +38,8 @@ The number of CPUs used (default, cpus='all') can also be set to a number <= the
 
 #### **Authors**
 
-Åsmund Kaupang
+[Åsmund Kaupang](https://github.com/akaupang)
  
 #### **Acknowledgements**
  
-Johannes Karwounopoulos, for suggesting the inclusion of multiprocess and tqdm.
+[Johannes Karwounopoulos](https://github.com/johanneskarwou), for suggesting the inclusion of multiprocess and tqdm.
